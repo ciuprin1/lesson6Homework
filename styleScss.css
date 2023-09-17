@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Fuggles&family=Noto+Sans+Soyombo&family=Roboto:wght@300&display=swap");
+@media (max-width: 1024px) {
+  .h1 {
+    font-size: 3rem;
+    line-height: 3rem;
+    font-weight: 900;
+  }
+}
+@media (max-width: 780px) {
+  .h1 {
+    font-size: 1.5rem;
+    line-height: 1rem;
+    font-weight: 600;
+  }
+}
+@media (max-width: 400px) {
+  .h1 {
+    font-size: 1rem;
+    line-height: 0.5rem;
+    font-weight: 400;
+  }
+}
+
+@media (max-width: 1024px) {
+  .h2 {
+    font-size: 3rem;
+    line-height: 3rem;
+    font-weight: 900;
+  }
+}
+@media (max-width: 780px) {
+  .h2 {
+    font-size: 1.5rem;
+    line-height: 1rem;
+    font-weight: 600;
+  }
+}
+@media (max-width: 400px) {
+  .h2 {
+    font-size: 1rem;
+    line-height: 0.5rem;
+    font-weight: 400;
+  }
+}
+
+@media (max-width: 1024px) {
+  .h3 {
+    font-size: 3rem;
+    line-height: 3rem;
+    font-weight: 900;
+  }
+}
+@media (max-width: 780px) {
+  .h3 {
+    font-size: 1.5rem;
+    line-height: 1rem;
+    font-weight: 600;
+  }
+}
+@media (max-width: 400px) {
+  .h3 {
+    font-size: 1rem;
+    line-height: 0.5rem;
+    font-weight: 400;
+  }
+}
+
+@media (max-width: 1024px) {
+  .h4 {
+    font-size: 3rem;
+    line-height: 3rem;
+    font-weight: 900;
+  }
+}
+@media (max-width: 780px) {
+  .h4 {
+    font-size: 1.5rem;
+    line-height: 1rem;
+    font-weight: 600;
+  }
+}
+@media (max-width: 400px) {
+  .h4 {
+    font-size: 1rem;
+    line-height: 0.5rem;
+    font-weight: 400;
+  }
+}
+
+@media (max-width: 1024px) {
+  .h5 {
+    font-size: 3rem;
+    line-height: 3rem;
+    font-weight: 900;
+  }
+}
+@media (max-width: 780px) {
+  .h5 {
+    font-size: 1.5rem;
+    line-height: 1rem;
+    font-weight: 600;
+  }
+}
+@media (max-width: 400px) {
+  .h5 {
+    font-size: 1rem;
+    line-height: 0.5rem;
+    font-weight: 400;
+  }
+}
+
+@media (max-width: 1024px) {
+  .p1 {
+    font-size: 3rem;
+    line-height: 3rem;
+    font-weight: 900;
+  }
+}
+@media (max-width: 780px) {
+  .p1 {
+    font-size: 1.5rem;
+    line-height: 1rem;
+    font-weight: 600;
+  }
+}
+@media (max-width: 400px) {
+  .p1 {
+    font-size: 1rem;
+    line-height: 0.5rem;
+    font-weight: 400;
+  }
+}
+
+@media (max-width: 1024px) {
+  .p2 {
+    font-size: 3rem;
+    line-height: 3rem;
+    font-weight: 900;
+  }
+}
+@media (max-width: 780px) {
+  .p2 {
+    font-size: 1.5rem;
+    line-height: 1rem;
+    font-weight: 600;
+  }
+}
+@media (max-width: 400px) {
+  .p2 {
+    font-size: 1rem;
+    line-height: 0.5rem;
+    font-weight: 400;
+  }
+}
+
+@media (max-width: 1024px) {
+  .p3 {
+    font-size: 3rem;
+    line-height: 3rem;
+    font-weight: 900;
+  }
+}
+@media (max-width: 780px) {
+  .p3 {
+    font-size: 1.5rem;
+    line-height: 1rem;
+    font-weight: 600;
+  }
+}
+@media (max-width: 400px) {
+  .p3 {
+    font-size: 1rem;
+    line-height: 0.5rem;
+    font-weight: 400;
+  }
+}
+
+@media (max-width: 1024px) {
+  .p4 {
+    font-size: 3rem;
+    line-height: 3rem;
+    font-weight: 900;
+  }
+}
+@media (max-width: 780px) {
+  .p4 {
+    font-size: 1.5rem;
+    line-height: 1rem;
+    font-weight: 600;
+  }
+}
+@media (max-width: 400px) {
+  .p4 {
+    font-size: 1rem;
+    line-height: 0.5rem;
+    font-weight: 400;
+  }
+}
+
+@media (max-width: 1024px) {
+  .p5 {
+    font-size: 3rem;
+    line-height: 3rem;
+    font-weight: 900;
+  }
+}
+@media (max-width: 780px) {
+  .p5 {
+    font-size: 1.5rem;
+    line-height: 1rem;
+    font-weight: 600;
+  }
+}
+@media (max-width: 400px) {
+  .p5 {
+    font-size: 1rem;
+    line-height: 0.5rem;
+    font-weight: 400;
+  }
+}
+
+.bord {
+  border: 1px solid black;
+}
+
+.cl1 {
+  height: 50px;
+  color: red;
+  width: 50px;
+  font-family: "Fuggles", cursive;
+}
+
+.cl2 {
+  height: 200px;
+  color: blue;
+  width: 200px;
+  font-family: "Roboto", sans-serif;
+}/*# sourceMappingURL=styleScss.css.map */

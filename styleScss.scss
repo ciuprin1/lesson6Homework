@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Fuggles&family=Noto+Sans+Soyombo&family=Roboto:wght@300&display=swap");
+//////////////////////////////////// Size
+///
+@mixin small {
+  font-size: 1rem;
+  line-height: 0.5rem;
+  font-weight: 400;
+}
+@mixin medium {
+  font-size: 1.5rem;
+  line-height: 1rem;
+  font-weight: 600;
+}
+@mixin large {
+  font-size: 3rem;
+  line-height: 3rem;
+  font-weight: 900;
+}
+///////////////////////////////// Resolution
+///
+@mixin desktop {
+  @media (max-width: 1024px) {
+    @content;
+    @include large();
+  }
+}
+@mixin tablet {
+  @media (max-width: 780px) {
+    @content;
+    @include medium();
+  }
+}
+@mixin mobile {
+  @media (max-width: 400px) {
+    @content;
+    @include small();
+  }
+}
+////////////////////////////////////////////////////////// Classes
+.h1 {
+  @include desktop() {
+  }
+  @include tablet() {
+  }
+  @include mobile() {
+  }
+}
+.h2 {
+  @include desktop() {
+  }
+  @include tablet() {
+  }
+  @include mobile() {
+  }
+}
+.h3 {
+  @include desktop() {
+  }
+  @include tablet() {
+  }
+  @include mobile() {
+  }
+}
+.h4 {
+  @include desktop() {
+  }
+  @include tablet() {
+  }
+  @include mobile() {
+  }
+}
+.h5 {
+  @include desktop() {
+  }
+  @include tablet() {
+  }
+  @include mobile() {
+  }
+}
+.p1 {
+  @include desktop() {
+  }
+  @include tablet() {
+  }
+  @include mobile() {
+  }
+}
+.p2 {
+  @include desktop() {
+  }
+  @include tablet() {
+  }
+  @include mobile() {
+  }
+}
+.p3 {
+  @include desktop() {
+  }
+  @include tablet() {
+  }
+  @include mobile() {
+  }
+}
+.p4 {
+  @include desktop() {
+  }
+  @include tablet() {
+  }
+  @include mobile() {
+  }
+}
+.p5 {
+  @include desktop() {
+  }
+  @include tablet() {
+  }
+  @include mobile() {
+  }
+}
+///////////////////////////////
+@mixin drova($h: 50px, $color: red, $w: 50px) {
+  height: $h;
+  color: $color;
+  width: $w;
+}
+
+.bord {
+  border: 1px solid black;
+}
+.cl1 {
+  @include drova();
+  font-family: "Fuggles", cursive;
+}
+.cl2 {
+  @include drova(200px, blue, 200px);
+  font-family: "Roboto", sans-serif;
+}
